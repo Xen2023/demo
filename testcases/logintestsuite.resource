@@ -1,5 +1,6 @@
 *** Settings ***
-Library        Browser
+Library        Browser    run_on_failure=Take Screenshot \ EMBED
+
 
 *** Test Cases ***
 As a user I want to login successfully with credential
